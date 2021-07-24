@@ -8,6 +8,6 @@ This application display 12 question, each one has 4 options where the user has 
 Talking about the purpose of the project, the user will have feedback related to the resilience to change. In the other hand, talking about the development, this project allows to practice the development using JavaScript.
 
 ## How users can get started with the project?
-To use the application, you can download the project and open in local the index.html file or you can access through this link: aclxrd.github.io/Change-Style/
+To use the application, you can download the project and open in local the index.html file or you can access through this [link](https://aclxrd.github.io/Change-Style/): https://aclxrd.github.io/Change-Style/
 
-## Developed by: @aclr_life
+### Developed by: @aclr_life
