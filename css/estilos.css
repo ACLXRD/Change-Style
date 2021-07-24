@@ -1,0 +1,183 @@
+*,*:before, *:after{ 
+    /* font*/
+    font-size: 17px;
+    /* Box */
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0 0;
+}
+/* Tools */
+.brd{
+    border: solid 1px red;
+}
+.brd2{
+    border: solid 1px green;
+}
+/* Titles */
+h2,h3{
+    text-align: center;
+}
+/* Nav styles */
+nav{
+    box-shadow:  5px 5px 7px #d5d5d5,-5px -5px 7px #fbfbfb;
+    overflow-x: hidden;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+.navbar-collapse ul li{
+    padding: 0 15px;
+}
+.navbar-collapse ul {
+    margin-left: 32%;
+}
+/* Questio card styles */
+body{
+    overflow-x: hidden;
+}
+#qcard{
+    border: solid 1px var(--bs-secondary);
+    border-radius: 10px;
+    position: relative;
+
+}
+#boxcls{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#cls{
+    background: none;
+    border: none;
+    margin: 10px;
+}
+.bi-arrow-counterclockwise{
+    border: solid 1px var(--bs-secondary) ;
+    border-radius: 50%;
+    color: var(--bs-secondary);
+    padding: 4px 6px;
+}
+.bi-arrow-counterclockwise:hover{
+    border: solid 1px var(--bs-blue) ;
+    color: var(--bs-blue);
+}
+#qcard h3{
+    font-size: 24px;
+}
+#qcard p{
+    text-align: center;
+}
+.btn-outline-primary:hover{
+    background-color: #f5f5f5;
+    color: var(--bs-blue)
+}
+#options{
+    color: var(--bs-secondary); 
+    margin-left: 25% ;
+    width: 70%;
+}
+#options .op{
+    text-align: left;
+    margin: 0;
+}
+#opA{
+    padding-top: 5px;
+}
+.label-check span, .score label{
+    color: #cccccc;
+    font-size: 14px;
+}
+.label-check span{
+    padding-right: 31px;
+}
+.label-check span:first-child{
+    padding-left: 3px;
+}
+.label-check{
+    display: none;
+}
+.label-check.active{
+    display: block;
+}
+.score .form-check{
+    font-size: 14px;
+    padding-top: 3px;
+}
+.col-sm-6{
+    padding: 0px;
+}
+/* Progress line styles */
+#progress{
+    text-align: center;
+}
+#progress p{
+    color: var(--bs-secondary);
+    font-size: 16px;
+}
+#progline, #inside{
+    border: solid 1px var(--bs-secondary);
+    border-radius: 10px;
+    height: 15px;
+    padding: 0;
+}
+#inside{
+    border: solid 1px var(--bs-blue);
+    background-color: var(--bs-blue);
+    height: 13px;
+    width: 0%;
+}
+/* Scores styles */
+#score{
+    color: var(--bs-secondary);
+    display: none;
+    margin: 5% auto;
+    width: 40%;
+}
+#score h2{
+    font-size: 45px;
+}
+#score h3{
+    font-size: 25px;
+}
+#scores{
+    margin-top: 10%;
+}
+.score-n, .score-lbl{
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0 auto
+}
+.score-lbl{
+    color: var(--bs-blue);
+    font-weight: normal;
+}
+#newT{
+    font-size: 20px;
+}
+@media only screen and (max-width: 1200px) {
+    #options{
+        width: 90%;
+        margin-left: 20%;
+        /* margin: auto; */
+    }
+}
+@media only screen and (max-width: 992px) {
+    #options{
+        width: 90%;
+        margin-left: 10%;
+        /* margin: auto; */
+    }
+}
+@media only screen and (max-width: 635px) {
+    #options{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .label-check{
+        display: block;
+    }
+    .ghost{
+        display: none;
+    }
+  }
